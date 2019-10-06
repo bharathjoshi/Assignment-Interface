@@ -1,29 +1,8 @@
-# Django React Boilerplate
+An online assignment portal for students and teachers. Teachers can give students assignments, grade them.
+Frontend - React.
+Backend - Django.
 
-[![alt text](https://github.com/justdjango/django-react-boilerplate/blob/master/thumbnail.png "Logo")](https://youtu.be/YKYVv0gm_0o)
+Yet to complete grading. Separate login for teachers and students.
 
-This repository contains a boilerplate project setup for Django and React. The project contains backend user authentication with the Django Rest Framework and rest-auth. The frontend has react redux setup for user authentication by storing the token in localstorage.
-
-[Watch the tutorial on how to integrate Django and React](https://youtu.be/YKYVv0gm_0o)
-
-## Backend development workflow
-
-```json
-virtualenv env
-source env/bin/activate
-pip install -r requirements.txt
-python manage.py runserver
-```
-
-## Frontend development workflow
-
-```json
-npm i
-npm start
-```
-
-## For deploying
-
-```json
-npm run build
-```
+Styling and Layouts - antDesign.
+Idea/tutorials - https://www.youtube.com/channel/UCRM1gWNTDx0SHIqUJygD-kQ.
